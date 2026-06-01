@@ -25,6 +25,11 @@ This repository contains **6 structured AI automation tasks** assigned during th
 
 ---
 
+All Tasks dashboard web app
+Link 🔗: https://userdashboard-liard.vercel.app/
+
+---
+
 ## 🧠 Projects Overview
 
 ### 🟢 Beginner Level
