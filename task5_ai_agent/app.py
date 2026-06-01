@@ -140,7 +140,7 @@ if prompt := st.chat_input("Ask me anything — I have tools!"):
                     messages.append({"role": "assistant", "content": msg.content or "", "tool_calls": [tc.model_dump() for tc in msg.tool_calls]})
                     messages.extend(tool_results)
                     final_response = client.chat.completions.create(
-                        model="llama3-groq-70b-8192-tool-use-preview",
+    model="llama-3.3-70b-versatile",
                         messages=messages,
                         max_tokens=1024
                     )
