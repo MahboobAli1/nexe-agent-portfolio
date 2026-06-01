@@ -4,7 +4,7 @@ from groq import Groq
 st.set_page_config(page_title="AI Chatbot | Nexe-Agent", page_icon="🤖")
 
 st.title("🤖 AI Chatbot")
-st.caption("Task 1 — Basic AI Chatbot | Nexe-Agent Internship by Khadija Maqsood")
+st.caption("Task 1 — Basic AI Chatbot | Nexe-Agent Internship by Mahboob Ali")
 
 # Sidebar for API key
 with st.sidebar:
