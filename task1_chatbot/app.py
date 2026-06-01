@@ -18,10 +18,10 @@ with st.sidebar:
     st.success("🔑 API Key: Configured ✅")
     st.markdown("---")
     model = st.selectbox("Model", [
-        "llama3-8b-8192",
-        "llama3-70b-8192",
-        "mixtral-8x7b-32768"
-    ])
+    "llama-3.1-8b-instant",
+    "llama-3.3-70b-versatile",
+    "mixtral-8x7b"
+])
     temperature = st.slider("Creativity", 0.0, 1.0, 0.7)
     if st.button("🗑️ Clear Chat"):
         st.session_state.messages = []
