@@ -8,7 +8,7 @@ import time
 st.set_page_config(page_title="Email Automation | Nexe-Agent", page_icon="📧")
 
 st.title("📧 Email Automation Script")
-st.caption("Task 2 — Email Automation | Nexe-Agent Internship by Khadija Maqsood")
+st.caption("Task 2 — Email Automation | Nexe-Agent Internship by Mahboob Ali")
 
 with st.sidebar:
     st.header("⚙️ Gmail Settings")
@@ -42,10 +42,10 @@ with tab1:
     ])
 
     templates = {
-        "Meeting Reminder": ("Meeting Reminder", "Hi,\n\nThis is a reminder about our upcoming meeting scheduled for tomorrow.\n\nPlease be prepared with your updates.\n\nBest regards,\nKhadija Maqsood"),
-        "Follow-up": ("Follow-up", "Hi,\n\nI wanted to follow up on my previous email. Please let me know if you need any additional information.\n\nBest regards,\nKhadija Maqsood"),
-        "Welcome Email": ("Welcome!", "Hi,\n\nWelcome aboard! We're excited to have you.\n\nFeel free to reach out if you have any questions.\n\nBest regards,\nKhadija Maqsood"),
-        "Newsletter": ("Monthly Newsletter", "Hi,\n\nHere are the highlights from this month:\n\n1. [Update 1]\n2. [Update 2]\n3. [Update 3]\n\nStay tuned for more!\n\nBest regards,\nKhadija Maqsood"),
+        "Meeting Reminder": ("Meeting Reminder", "Hi,\n\nThis is a reminder about our upcoming meeting scheduled for tomorrow.\n\nPlease be prepared with your updates.\n\nBest regards,\nMahboo Ali"),
+        "Follow-up": ("Follow-up", "Hi,\n\nI wanted to follow up on my previous email. Please let me know if you need any additional information.\n\nBest regards,\nMahboo Ali"),
+        "Welcome Email": ("Welcome!", "Hi,\n\nWelcome aboard! We're excited to have you.\n\nFeel free to reach out if you have any questions.\n\nBest regards,\nMahboo Ali"),
+        "Newsletter": ("Monthly Newsletter", "Hi,\n\nHere are the highlights from this month:\n\n1. [Update 1]\n2. [Update 2]\n3. [Update 3]\n\nStay tuned for more!\n\nBest regards,\nMahboo Ali"),
     }
 
     if template != "Custom":
